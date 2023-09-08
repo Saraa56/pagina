@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">>
+    <title>Venta de Joyas </title>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    
+    
+
+
+
+    <header class="header">
+        <h1>Bienvenido a la Tienda Natu Perlas</h1>
+        <nav>
+            <ul class="item">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#foro">Foro</a></li>
+            </ul>
+        </nav>
+         <!-- Agrega esta sección en el cuerpo de tu HTML, donde quieras mostrar el carrito -->
+     <div class ="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="lista-carrito">
+        <!-- Aquí se agregarán los elementos del carrito dinámicamente -->
+    </ul>
+    <p>Total: <span id="total">$0.00</span></p>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+     <div>
+
+    </header>
+    <div class="buscador">
+         <li>
+            <form action="">
+              <input
+                type="text"
+                class="buscarOculto"
+                name="buscar"
+                id="input_buscar"
+                placeholder="Buscar en la tienda"
+              />
+              <a href="" id="buscando">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </form>
+          </li>
+
+    </div>
+
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a nuestra tienda en línea de joyas en perlas reales. En nuestro catálogo encontrarás una amplia selección de joyas exquisitas hechas con perlas auténticas y materiales de alta calidad. Descubre la elegancia de las perlas reales con nosotros.</p>
+    </section>
+
+    <!-- Sección de Catálogo -->
+    <section id="catalogo">
+        <h2>Catálogo de Joyas en Perlas Reales</h2>
+        <!-- Contenido del catálogo con imágenes, descripciones y precios -->
+        <div class="container-options">
+            <span class="active">Destacados</span>
+            <span>Más recientes</span>
+            <span>Mejores Vendidos</span>
+        </div>
+
+        <div class="container-products">
+        
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="img/perlas akoya.jpg" alt="Perla akoya" />
+                    <span class="discount">-13%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Collares De Perlas Akoya</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">$200.60 <span>$250.30</span></p>
+                </div>
+            </div>
+            
+            <div class="card-product">
+                <div class="container-img">
+                    <img
+                        src="img/perlas mabe.jpg"
+                        alt="anillo"/>
+                    <span class="discount">-22%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Anillo De Perla Mabbe</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">$500.70 <span>$700.30</span></p>
+                </div>
+            </div>
+            
+            <div class="card-product">
+                <div class="container-img">
+                    <img
+                        src="img/il_794xN.2180339784_39e0.webp"
+                        alt="pendiente"
+                    />
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Pendientes De Perlas Keshi</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">$99.20</p>
+                </div>
+            </div>
+            
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="img/broche.jpg" alt="broche" />
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Broche De Perlas Del Mar Del Sur</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">$500.60</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Blogs -->
+    <section id="blogs">
+        <h2>Blogs</h2>
+        <!-- Contenido de los blogs con enlaces y descripciones de artículos -->
+        <div class="blog">
+            <h3>10 Consejos para Cuidar tus Joyas de Perlas</h3>
+            <p>Descubre cómo mantener tus joyas de perlas en perfecto estado con estos consejos útiles. [Fecha de Publicación: 01/09/2023]</p>
+            <a href="blog1.html">Leer más</a>
+            <img src="img/perlas-como-se-forman-655x368-1.jpg" alt="perla">
+        </div>
+        <div class="blog">
+            <h3>Tendencias de Joyería de Perlas para la Temporada</h3>
+            <p>Conoce las últimas tendencias en joyería de perlas para estar a la moda esta temporada. [Fecha de Publicación: 15/08/2023]</p>
+            <a href="blog2.html">Leer más</a>
+        </div>
+        <!-- Agrega más artículos de blog aquí -->
+    </section>
+
+    <!-- Sección de Contacto -->
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Estamos aquí para ayudarte. Puedes ponerte en contacto con nosotros de las siguientes maneras:</p>
+    
+    <ul>
+        <li>Teléfono: (123) 456-7890</li>
+        <li>Correo Electrónico: <a href="mailto:info@joyasperlasreales.com">info@joyasperlasreales.com</a></li>
+        <li>Dirección: 123 Calle Principal, Ciudad, País</li>
+    </ul>
+    <h3>Formulario de Contacto</h3>
+    <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+    <!-- Sección de Foro -->
+    <section id="foro">
+        <h2>Foro de Discusión</h2>
+        <!-- Contenido del foro, como temas de discusión y respuestas -->
+        <div class="tema">
+            <h3>Comparte tus Experiencias con las Joyas de Perlas</h3>
+            <p>Este es el lugar para compartir tus experiencias y opiniones sobre nuestras joyas de perlas. ¡Esperamos tus comentarios!</p>
+            <a href="foro.html">Ir al Foro</a>
+        </div>
+        <!-- Agrega más temas de discusión aquí -->
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Tienda de Joyas en Perlas Reales</p>
+        <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+        <p>Teléfono: (123) 456-7890 | Correo Electrónico: info@joyasperlasreales.com</p>
+    </footer>
+    
+     <script
+      src="https://kit.fontawesome.com/36d8ee555a.js"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
+</html>
+

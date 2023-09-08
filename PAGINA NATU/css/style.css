@@ -1,0 +1,233 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografía */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Estilos generales */
+html {
+    font-size: 62.5%;
+}
+
+/* Encabezado */
+.header {
+    background-color:rgb(255, 210, 217);
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.item {
+    list-style: none;
+    padding: 0;
+}
+
+.item li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+/* Carrito de compras */
+.carrito {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow: 19 9 5px rgba(0, 0, 0, 0.2);
+}
+
+.carrito h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#total {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#vaciar-carrito {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#vaciar-carrito:hover {
+    background-color: lightcoral;
+}
+
+/* Buscador */
+.buscador {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.buscador input[type="text"] {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid black;
+}
+
+#buscando {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+#buscando:hover {
+    color: lightcoral;
+}
+
+/* Secciones */
+section {
+    padding: 3rem;
+}
+
+section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Tarjetas de producto */
+.container-options {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-options span {
+    background-color: #fff;
+    padding: 0.7rem 3rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.container-options span:hover {
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.container-options span.active {
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+}
+
+.card-product {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    background-color: lightcoral;
+    color: #fff;
+    padding: 2px 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: -3rem;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.button-group span {
+    border: 1px solid lightcoral;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button-group span:hover {
+    background-color: lightcoral;
+}
+
+.button-group span i {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.card-product:hover .button-group {
+    right: 1rem;
+    z-index: 1;
+}             
+
+/* Pie de página */
+footer {
+    background-color: pink;
+    color: black;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+footer a{
+
+    .container-options span {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
