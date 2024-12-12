@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStore</title>
+    <link rel="stylesheet" href="../static/style/home.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            MyStore
+        </div>
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos, marcas y más..." aria-label="Buscar productos">
+                <button class="search-button" type="button" aria-label="Iniciar búsqueda">
+                    Buscar
+                </button>
+            </div>
+        </div>
+        <nav>
+            <a href="home.html" class="active">Inicio</a>
+            <a href="Categorias.html">Categorías</a>
+            <a href="Productos.html" >Productos</a>
+            <a href="#">Devoluciones</a>
+        </nav>
+        
+        <div class="actions">
+            <a href="./login.html" class="btn-link">
+                <button class="login">Iniciar sesión</button>
+            </a>
+            <a href="./Register.html" class="btn-link">
+                <button class="signup">Registrarse</button>
+            </a>
+            
+        </div>
+    </header>
+
+    <!-- Carousel Section -->
+    
+        <div class="background-container">
+            <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad libero,<br>
+                    animi pariatur ea minus quae consectetur accusamus corrupti
+                    <br> molestiae saepe totam a, repellat commodi cum aliquam iure debitis distinctio autem!</p>
+            </div>
+        </div>
+    
+
+
+    <!-- Featured Products -->
+    <section class="products">
+        <h2>Productos Destacados</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="../static/images/Poduct1.png" alt="Laptop Gamer">
+                <h3>Computadora Gamer</h3>
+                <p>$2,500,000</p>
+                <button class="btn-buy">Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="../static/images/Product2.png" alt="Teclado RGB">
+                <h3>Torre Cpu</h3>
+                <p>$120,000</p>
+                <button class="btn-buy">Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="../static/images/Laptop.png" alt="Monitor UltraWide">
+                <h3>Laptop</h3>
+                <p>$950,000</p>
+                <button class="btn-buy">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="offers">
+        <h2>Ofertas Exclusivas</h2>
+        <div class="offer-grid">
+            <div class="offer-card">
+                <img src="../static/images/Product3.png" alt="Audífonos Bluetooth">
+                <h3>Audífonos</h3>
+                <p>Antes: <span class="price-old">$300,000</span></p>
+                <p>Ahora: <span class="price-new">$200,000</span></p>
+            </div>
+            <div class="offer-card">
+                <img src="../static/images/Mouse.png" alt="Mouse Gamer">
+                <h3>Mouse Gamer</h3>
+                <p>Antes: <span class="price-old">$150,000</span></p>
+                <p>Ahora: <span class="price-new">$90,000</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MyStore - Todos los derechos reservados</p>
+        <div class="footer-links">
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Contacto</a>
+        </div>
+    </footer>
+    <script src="../static/js/home.js"></script>
+
+</body>
+</html>
